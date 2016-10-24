@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from demo.nrgthemes.com/projects/hostguru/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 19:12:30 GMT -->
+<!-- Mirrored from demo.nrgthemes.com/projects/hostguru/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 19:12:40 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 	<!-- 
 	*******************
@@ -86,6 +86,7 @@
 			</div>
 		</div>
 	</div>
+	
 
 
 	
@@ -165,31 +166,130 @@
 			</div>
 		</div>
 	</div>
+
+
 	
 	<!-- 
 	*******************
-		SECTION 404
+		TOP BANNER
 	****************** 
 	-->
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<div class="section-404 img-bg">
-					<img src="img/404.png" alt="404" class="img img-responsive hidden">
-					<form action="#" class="form">
-						<div class="title">Page not found lorem <br> ipsum dolor sit amet</div>
-						<div class="wpc-input-group">
-							<input type="text" name="page" class="input">
-							<i class="fa fa-search"></i>
+	<div class="wpc-top-header overlay img-bg">
+		<img src="img/top-banner.jpg" alt="banner" class="hidden">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="wrapper">
+						<div class="heading">Contact us</div>
+						<div class="subheding">
+							<a href="index.html" class="link">home</a><span class="round"></span>
+							<a href="index.html" class="link">pages</a><span class="round"></span>
+							<a href="contact.html" class="link active">Contact us</a>
 						</div>
-						<input type="submit" value="search" class="wpc-btn">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 
+	*******************
+      REGISTER  
+	*******************
+	-->
+
+
+	<div class="wpc-register contact-us">
+		<div class="container no-padding-sm">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="subtitle">info</div>
+					<div class="title">contact us</div>
+					<div class="info">
+						Lorem Ipsum is simply dummy text of the printing and typesetting <br class="visible-lg"> industry. Lorem Ipsum has been the industry's standard dummy <br class="visible-lg"> text ever since the when an unknown printer took.
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="contact-info">
+								<div class="heading">Address</div>
+								<div class="info">9987 Some street City <br>
+									Country  Lorem <br>
+									Ipsumdolor, 688521
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="contact-info">
+								<div class="heading">Email address</div>
+								<div class="info">
+									General<a href="mailto:info@hostguru.com"> :info@hostguru.com</a> <br>
+									Office<a href="mailto:info@hostguru.com"> : contact@host.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="contact-info">
+								<div class="heading">Phone</div>
+								<div class="info">
+									Landline : <a href="tel:+380933456789">37/5 77868 777 688</a>
+									Mobile : <a href="tel:+380933456789">+87 66665 7785 7</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="contact-info">
+								<div class="heading">SOcial Media</div>
+								<div class="info">
+									<div class="soc-icons">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-google-plus"></i></a>
+										<a href="#"><i class="fa fa-youtube"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="subtitle">contact</div>
+					<div class="title">form</div>
+					<form action="#" class="wpc-comments-form">
+						<input type="text" name="name" placeholder="Your Name" class="input" required>
+						<input type="email" name="email" placeholder="E-mail" class="input" required>
+						<textarea name="comment" class="input comment" placeholder="Comment..."></textarea>
+						<div class="text-right text-xs-center">
+							<input type="submit" class="wpc-btn" value="submit">
+						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
+
+	<!-- 
+	*******************
+		MAPS
+	****************** 
+	-->
+
+	<div class="google-maps">
+		<div 
+		  class="wpc-map" 
+		  data-lat="40.7143528" 
+		  data-lng="-74.0059731"  
+		  data-marker="img/marker.png" 
+		  data-zoom="10" 
+		  data-style="style-1"
+		  data-string="WPC-string"
+		></div>
+	</div>
 
 
 	<!-- 
@@ -298,15 +398,16 @@
 
 
 
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/idangerous.swiper.min.js"></script>
     <script src="js/jquery.viewportchecker.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 
-<!-- Mirrored from demo.nrgthemes.com/projects/hostguru/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 19:12:30 GMT -->
+<!-- Mirrored from demo.nrgthemes.com/projects/hostguru/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 19:12:40 GMT -->
 </html>
